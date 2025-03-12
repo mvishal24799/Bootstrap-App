@@ -1,0 +1,85 @@
+body {
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+    
+}
+
+ .img-prime {
+    margin-bottom:70px;
+    gap: 20px;
+    
+ }
+
+ .text-center {
+    margin-top: -50px;
+ }
+.sign-in-container {
+    max-width: 350px;
+    margin: 3rem auto;
+    /* padding: 20px; */
+    position: relative;
+    /* padding: 14px 18px; */
+    padding-top: -20px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    gap: 20px;
+
+    
+
+}
+
+.sign-in-card {
+    padding-top: -5rem;
+    margin-top: -6rem;
+}
+.continue-btn {
+    background-color: #360cf0;
+    border: none;
+    color: #000;
+    font-weight: normal;
+    width: 100%;
+}
+.continue-btn:hover {
+    background-color: #43f590;
+    color: #000;
+}
+.create-account-btn {
+    background-color: #fff;
+    border: 1px solid #d5d9d9;
+    color: #000;
+    width: 100%;
+}
+.create-account-btn:hover {
+    background-color: #f7fafa;
+}
+.need-help {
+    color: #0066c0;
+    cursor: pointer;
+    text-decoration: none;
+}
+.need-help:hover {
+    color: #c45500;
+    text-decoration: underline;
+}
+.terms-text {
+    font-size: 12px;
+    color: #555;
+}
+.footer {
+    font-size: 12px;
+    color: #555;
+    text-align: center;
+    margin-top: 5rem;
+    padding: orem;
+}
+.footer a {
+    color: #0066c0;
+    text-decoration: none;
+    margin:10px;
+    padding-bottom: 5rem;
+}
+.footer a:hover {
+    text-decoration: underline;
+    color: #c45500;
+}

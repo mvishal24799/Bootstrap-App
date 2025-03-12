@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.95) !important;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(imame/background.avif);
+    background-position: center;
+    background-size: cover;
+}
+
+.logo 
+{
+    width: 150px;
+    margin-top: 18px;
+}
+.header
+{
+    height: 10%;
+}
+.header-btn
+{
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 7px 20px;
+    float: right;
+    margin-top: 15px;
+    color: #fff !important;
+    background: #107afd;
+    font-weight: 600;
+}
+
+.movie-details{
+    margin: 3% 0;
+}
+
+.left-box {
+    color: #fff;
+    margin: 15px 0;
+    padding: 20px;
+}
+
+.casting img{
+height: 40px;
+width: 40px;
+margin-right: 10px;
+cursor: pointer;
+}
+
+.left-box a {
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 7px 20px;
+    margin-top: 35px;
+    color: #fff !important;
+    background: #107afd;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.download-btn {
+    border: 1px solid #fff !important;
+    background: transparent !important;
+}
+
+.fa-solid{
+    margin: 0 5px;
+}
+
+.movie-img {
+    height: 350px;
+    box-shadow: -4px 4px 5px 0 #000;
+}
+
+.series h3{
+    color: #fff;
+
+}
+
+.series img {
+    width: 100%;
+    margin-top: 15px;
+    box-shadow: -4px 4px 5px 0 #000;
+    cursor: pointer;
+    transition: 1s;
+}
+.series img:hover {
+    transform: translateY(-10px);
+}
+/* Text Content Styles */
+.text-content-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+}
+
+.text-content-wrapper h1 {
+    font-size: 3.2rem;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    color: white;
+}
+
+.text-content-wrapper .lead {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    color:#fff
+}
+
+/* Image Wrapper Styles */
+.image-wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.channel-card {
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.channel-card:hover {
+    transform: scale(1.02);
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.95);
+    padding: 2rem 0;
+}
+ 
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+ 
+.footer a:hover {
+    color: #00A8E1 !important;
+}
+ 
+ 
+.bg-custom{
+    background-color: #291f1f;
+}
+.mt-2 {
+    color: #107afd;
+}
